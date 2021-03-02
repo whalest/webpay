@@ -1,0 +1,48 @@
+{
+  "name": "webpay-by",
+  "version": "0.0.10",
+  "description": "Webpay.by form fields api for Belarus payment system",
+  "author": "reslear <reslear@gmail.com>",
+  "homepage": "https://github.com/whalest/webpay",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whalest/webpay.git"
+  },
+  "scripts": {
+    "parse": "ts-node scripts/generate-types/index.ts",
+    "test": "tsnd --clear --respawn tests/play/index.ts",
+    "dev": "tsnd --respawn examples/express/server.ts",
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "clean": "rm -rf dist"
+  },
+  "bugs": {
+    "url": "https://github.com/whalest/webpay/issues"
+  },
+  "devDependencies": {
+    "@types/prettier": "^2.2.1",
+    "@types/turndown": "^5.0.0",
+    "cheerio": "^1.0.0-rc.5",
+    "dayjs": "^1.10.4",
+    "fs-extra": "^9.1.0",
+    "prettier": "2.2.1",
+    "ts-node": "9.1.1",
+    "ts-node-dev": "^1.1.6",
+    "tsup": "4.6.0",
+    "turndown": "^7.0.0",
+    "typescript": "4.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

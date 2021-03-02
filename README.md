@@ -1,2 +1,3 @@
 # webpay-by
-Webpay.by form fields api for Belarus payment system
+
+Form fields api for Belarus payment system Webpay.by
