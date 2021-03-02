@@ -1,6 +1,6 @@
 {
   "name": "webpay-by",
-  "version": "0.0.10",
+  "version": "0.0.12",
   "description": "Webpay.by form fields api for Belarus payment system",
   "author": "reslear <reslear@gmail.com>",
   "homepage": "https://github.com/whalest/webpay",
