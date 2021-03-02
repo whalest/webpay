@@ -1,5 +1,7 @@
 # webpay-by
 
+![webpay-by](https://github.com/whalest/webpay/blob/main/assets/main.png?raw=true)
+
 Webpay.by form fields api for Belarus payment system
 
 - axios
