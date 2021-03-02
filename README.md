@@ -1,6 +1,10 @@
 # webpay-by
 
+
 ![webpay-by](https://github.com/whalest/webpay/blob/main/assets/main.png?raw=true)
+
+[![d](https://img.shields.io/npm/dm/webpay-by.svg?style=flat-square)](https://npmjs.com/package/webpay-by)
+[![v](https://img.shields.io/npm/v/webpay-by/latest.svg?style=flat-square)](https://npmjs.com/package/webpay-by)
 
 Webpay.by form fields api for Belarus payment system
 
